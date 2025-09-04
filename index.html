@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Awsome Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!--navigation-->
+        <header>
+            <nav class="navbar">
+                <h1 class="logo">portfolio</h1>
+                <ul class="nav-links">
+                    <li><a href="#hero"></a> Home</li>
+                    <li><a href="#about"></a> About</li>
+                    <li><a href="#projects"></a> Project</li>
+                    <li><a href="#contact"></a> Contact</li>
+                </ul>
+            </nav>
+        </header>
+
+        <!--Hero section-->
+        <section id="hero" class="hero">
+            <div class="hero-content">
+                <h1>Hello, I'm <span class="highlight">Brendan N. Mbai</span></h1>
+                <p>Aspiring Web Developer |Creative Thinker | Problem Solver</p>
+                <button id="exploreBtn">Explore My Work</button>
+            </div>
+
+            
+        </section>
+        <!--About Section-->
+        <section id="about" class="about">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <img src="https://picsum.photos/200" alt="my photo">
+                <p> <em>
+                    Hi! I'm a passionate learner exploring the world of web development and programming in alice. 
+                    I enjoy creating beautiful and functional websites, animations and experimenting with new ideas.
+                    This portfolio showcases my journey and projects as i grow into a professional developer as well as a programmer
+                </em>
+                </p> 
+            </div>
+        </section>
+        <!--Project Section-->
+        <section id="projects" class="projects"> 
+            <h2>projects</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <h3>✋ portfolio website</h3>
+                    <p>a clean personal website built with HTML, CSS, and javascript</p>
+                </div>
+                <div class="project-card">
+                    <h3>😃 javascript game</h3>
+                    <p>a fun interactive game coded in vanilla javascript</p>
+                </div>
+                <div class="project-card">
+                    <h3>🎯 interactive story</h3>
+                    <p>A choose-your-own-adventure using HTML+ JS</p>
+                </div>
+            </div>
+        </section>
+        <!--contact section-->
+        <section id="contact" class="contact">
+            <h2>Contact Me</h2>
+            <form id="contactform">
+                <input type="text" id="name" placeholder="your name" required>
+                <input type="email" id="email" placeholder="your email" required>
+                <textarea id="message" placeholder="type your message" required></textarea>
+                <button type="submit">send message</button>
+
+            </form>
+            <p class="status"></p>
+        </section>
+        <!--Footer-->
+        <footer>
+            <p>&copy; 2025 My Portfolio| built with ❤️ using HTML, CSS & JS</p>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
